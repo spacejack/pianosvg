@@ -1,0 +1,33 @@
+/* PianoSVG element styles */
+
+/* Root SVG element */
+.piano {
+	width: 100%;
+}
+
+/* Key elements */
+.key-black, .key-white {
+	stroke: #111;
+	stroke-width: 0.25;
+	stroke-linejoin: round;
+	cursor: pointer;
+	/* Prevent mobile tap highlight */
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+.key-black {
+	fill: #333;
+}
+.key-black:hover {
+	fill: #555;
+}
+.key-white {
+	fill: #E0E0E0;
+}
+.key-white:hover {
+	fill: #D4D4D4;
+}
+
+/* Active key style */
+.key-active, .key-active:hover {
+	fill: #69C;
+}
