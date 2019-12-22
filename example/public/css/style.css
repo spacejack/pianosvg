@@ -1,0 +1,33 @@
+body, td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #CCC;
+}
+
+button {
+	font-size: 1em;
+	padding: 0.5em;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #999;
+	margin: 0;
+	padding: 0;
+}
+
+/* App container for keyboard */
+.piano-container {
+	width: 100%;
+	overflow-x: auto;
+	margin-bottom: 1.5em;
+}
+
+.buttons button {
+	margin-right: 2em;
+	min-width: 8em;
+}
+.buttons button:last-child {
+	margin-right: 0;
+}
